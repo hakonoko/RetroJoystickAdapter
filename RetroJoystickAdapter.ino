@@ -1,13 +1,3 @@
-/*
- * Link
- *  mcgurk/Arduino-USB-HID-RetroJoystickAdapter
- *  https://github.com/mcgurk/Arduino-USB-HID-RetroJoystickAdapter
- *  
- * Library
- *  dmadison/ArduinoXInput
- *  https://github.com/dmadison/ArduinoXInput
- */
-
 /* 
  * SFC(SNES)はDataPinから16bitデータが飛んでくる。引用元:https://wiki.superfamicom.org/controllers#toc-3
  * bits: byetUDLRaxlr0000
