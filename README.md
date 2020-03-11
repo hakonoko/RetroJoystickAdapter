@@ -4,7 +4,7 @@ SFC(SNES) and N64 Controller to XInput
 Arduino Leonardoを使用し、SFC(SNES)とN64のコントローラをXInputとして認識させます。  
 SFC,N64のコントローラを両方接続しても1つのデバイスとして認識されます。(SFCのAボタンとN64のAボタンは同じ入力として処理)
   
-SFCコンはCLOCK=5pin, LAATCH=6pin、DATA=7pinへ接続、
+SFCコンはCLOCK=5pin, LATCH=6pin、DATA=7pinへ接続、
 N64コンはDATA=2pinへ接続するようにしています。
 SFC(SNES)は5v、N64は3.3vで動作するようなので注意
   
