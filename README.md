@@ -1,21 +1,32 @@
 # RetroJoystickAdapter
 SFC(SNES) and N64 Controller to XInput
 
-Arduino Leonardoを使用し、SFC(SNES)とN64のコントローラをXInputとして認識させます。  
-SFC,N64のコントローラを両方接続しても1つのデバイスとして認識されます。(SFCのAボタンとN64のAボタンは同じ入力として処理)
+Arduino Leonardoを使用し、SFC(SNES)とN64のコントローラをまとめて1つのXInputコントローラとして認識させます。  
   
-SFCコンはCLOCK=5pin, LATCH=6pin、DATA=7pinへ接続、
-N64コンはDATA=2pinへ接続するようにしています。
-SFC(SNES)は5v、N64は3.3vで動作するようなので注意
+```
+SFC(SNES)
+    VDD   = +5v
+    CLOCK = 5pin
+    LATCH = 6pin
+    DATA  = 7pin
+
+N64
+    VDD   = +3.3v
+    DATA  = 2pin
+```
   
-Steamで買った2Dゲームとかが快適に遊べるようになったので満足
+Requirements
+-
+Library  
+ (dmadison/ArduinoXInput) &nbsp; https://github.com/dmadison/ArduinoXInput  
+  
+Board Package  
+(dmadison/ArduinoXInput_AVR) &nbsp; https://github.com/dmadison/ArduinoXInput_AVR
   
 Link
 -
- mcgurk/Arduino-USB-HID-RetroJoystickAdapter
- https://github.com/mcgurk/Arduino-USB-HID-RetroJoystickAdapter
- 
-Library
+(mcgurk/Arduino-USB-HID-RetroJoystickAdapter) &nbsp; https://github.com/mcgurk/Arduino-USB-HID-RetroJoystickAdapter
+
+License
 -
- dmadison/ArduinoXInput
- https://github.com/dmadison/ArduinoXInput
+https://github.com/hakonoko/RetroJoystickAdapter/blob/master/LICENSE
