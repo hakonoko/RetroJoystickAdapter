@@ -1,7 +1,10 @@
 # RetroJoystickAdapter
 SFC(SNES) and N64 Controller to XInput
 
-Arduino Leonardoを使用し、SFC(SNES)とN64のコントローラをまとめて1つのXInputコントローラとして認識させます。  
+Arduino Leonardoを使用し、SFC(SNES)とN64のコントローラをまとめて1つのXInputコントローラとして認識させます。
+
+ArduinoXInputライブラリ、ArduinoXInput_AVRボードパッケージをインストール後、  
+ボードを"Arduino Leonardo w/ XInput"に変更後書き込んでください。
   
 ```
 SFC(SNES)
